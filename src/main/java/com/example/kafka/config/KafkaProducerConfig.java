@@ -15,7 +15,7 @@ import java.util.Map;
 @Configuration
 public class KafkaProducerConfig {
 
-    @Value("localhost:29092")
+    @Value("localhost:9092")
     private String bootstrapServers;
 
     public Map<String, Object> producerConfig() {
